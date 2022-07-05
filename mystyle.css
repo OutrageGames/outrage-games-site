@@ -1,5 +1,4 @@
 body {
-	margin: 0;
 	font-family: kwfont;
 	src: url("fonts/kwfont.ttf");
 	background-image: url("images/body-background.png");
@@ -7,28 +6,23 @@ body {
 
 .nav-cont{
 	height: 240px;
-	vertical-align: middle;
-	display: table-cell;
 }
-
 
 .nav-bg-img {
 	background-image: url("images/nav-background.png");
 }
 
-.nav-btn {
-	color: rgb(0, 0, 0);
-	background-color: transparent !important;
-	font-size: 30px;
+img{
+	width: 255px;
+	height: 100px;
+	display: block;
+	margin-left: auto;
+	margin-right: auto;
+	margin-top: 50px;
 }
 
-.nav-btn:hover {
+.bodytext{
+	text-align: center;
 	color: white;
-	background-color: transparent !important;
-	text-decoration: none; 
-}
-
-.nav-btn:active {
-	color: white;
-	background-color: transparent !important;
+	font-size: 90px;
 }

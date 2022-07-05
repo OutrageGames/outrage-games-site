@@ -1,54 +1,34 @@
-headerbg{
- 
-	padding: 20px 20px;
-	background-image: url("images/COVERSITE2.png");
-
-	position: fixed;
-  top: 0;
-  left: 0;
-  bottom:0;
-  right:0;
-	height: 180px;
-
-	background-position: center;
-	background-repeat: true;
-
-	position: relative;
-	display: block;
-}
-
-header img {
-	width: 10%;
-	position: absolute;
-    margin: auto;
-    top: 0;
-    bottom: 0;
-	left: 150px;
-	float: left;
-}
-
-header a {
-	color: black;
-	text-align: center;
-	text-decoration: none;
-	font-size: 30px;
-	width: 15%;
-    margin-top: 70px;
-    float: left;
-}
-
-header a:hover {
-	color: white;
-}
-
 body {
 	margin: 0;
 	font-family: kwfont;
-	background-image: url("images/COVERSITE.png");
+	src: url("fonts/kwfont.ttf");
+	background-image: url("images/body-background.png");
 }
 
-body img{
-	
-
+.nav-cont{
+	height: 240px;
+	vertical-align: middle;
+	display: table-cell;
 }
 
+
+.nav-bg-img {
+	background-image: url("images/nav-background.png");
+}
+
+.nav-btn {
+	color: rgb(0, 0, 0);
+	background-color: transparent !important;
+	font-size: 30px;
+}
+
+.nav-btn:hover {
+	color: white;
+	background-color: transparent !important;
+	text-decoration: none; 
+}
+
+.nav-btn:active {
+	color: white;
+	background-color: transparent !important;
+}

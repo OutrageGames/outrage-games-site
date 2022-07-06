@@ -1,0 +1,46 @@
+.nav-bg-img {
+	background-image: url("images/nav-background.png");
+	height: 321px;
+	/* position: fixed; */
+  	/* top: 0; */
+  	width: 100%;	
+}
+
+.nav-btn {
+	position: relative;
+	top: 100%;
+	padding-left: 50px;
+	color: black;
+	font-size: 35px;
+	text-decoration: none; 
+}
+
+.nav-btn:hover {
+	color: white;
+	text-decoration: none; 
+}
+
+.nav-btn:active {
+	color: white;
+	text-decoration: none; 
+}
+
+.nav-btn:after {
+	color: white;
+	text-decoration: none;
+}
+
+.nav-menu{
+	text-align: center;
+	height: 100px;
+	position: relative;
+}
+
+.nav-logo{
+	max-width: 200px;
+	margin: 0;
+	position: absolute;
+	top: 70%;
+	left: 20%;
+
+}

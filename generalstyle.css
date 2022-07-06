@@ -1,0 +1,21 @@
+body{
+	font-family: 'kwfont';
+	src: url('fonts/kwfont.ttf') format('truetype');
+	font-weight: normal;
+	font-style: normal;
+	letter-spacing: 1px;
+	
+	background-image: url("images/body-background.png");
+	margin: 0px;
+	background-attachment: fixed;
+}
+
+
+.rights-text{
+	color: rgb(209, 209, 209);
+	position: fixed;
+	left: 0;
+	bottom: 0;
+	width: 100%;
+	text-align: center;
+}

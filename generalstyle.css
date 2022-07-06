@@ -1,9 +1,9 @@
 body{
-	font-family: 'kwfont';
-	@font-face {
+	font-family: 'kwfontregular';
+	/* @font-face {
 		font-family: 'kwfont';
 		src: url('https://www.dropbox.com/s/6gu93r8ctt4d3gz/kwfont.ttf?raw=1');
-	}
+	} */
 	font-weight: normal;
 	font-style: normal;
 	letter-spacing: 1px;
@@ -21,4 +21,13 @@ body{
 	bottom: 0;
 	width: 100%;
 	text-align: center;
+}
+
+@font-face {
+    font-family: 'kwfontregular';
+    src: url('fontkit/kwfont-webfont.woff2') format('woff2'),
+         url('fontkit/kwfont-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+
 }

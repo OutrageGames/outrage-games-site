@@ -15,6 +15,13 @@
 	text-decoration: none; 
 }
 
+.nav-social {
+	position: relative;
+	top: 100%;
+	padding-left: 40px;
+	text-decoration: none; 
+}
+
 .nav-btn:hover {
 	color: white;
 	text-decoration: none; 

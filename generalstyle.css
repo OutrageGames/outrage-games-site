@@ -1,9 +1,5 @@
 body{
 	font-family: 'kwfontregular';
-	/* @font-face {
-		font-family: 'kwfont';
-		src: url('https://www.dropbox.com/s/6gu93r8ctt4d3gz/kwfont.ttf?raw=1');
-	} */
 	font-weight: normal;
 	font-style: normal;
 	letter-spacing: 1px;
@@ -13,6 +9,11 @@ body{
 	background-attachment: fixed;
 }
 
+.body-text{
+	text-align: center;
+	color: white;
+	text-shadow: -5px 5px 5px black;
+}
 
 .rights-text{
 	color: rgb(209, 209, 209);

@@ -6,6 +6,19 @@
   	width: 100%;	
 }
 
+.nav-menu{
+	text-align: center;
+	height: 100px;
+}
+
+.nav-logo{
+	position: absolute;
+	top: 8%;
+	left: 20%;
+	max-width:150px;
+    width:100%;
+}
+
 .nav-btn {
 	position: relative;
 	top: 100%;
@@ -13,6 +26,7 @@
 	color: black;
 	font-size: 35px;
 	text-decoration: none; 
+	width: 200px;
 }
 
 .nav-social {
@@ -37,17 +51,3 @@
 	text-decoration: none;
 }
 
-.nav-menu{
-	text-align: center;
-	height: 100px;
-	position: relative;
-}
-
-.nav-logo{
-	max-width: 200px;
-	margin: 0;
-	position: absolute;
-	top: 70%;
-	left: 20%;
-
-}

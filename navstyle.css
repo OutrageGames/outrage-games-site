@@ -22,6 +22,7 @@
 .nav-btn {
 	position: relative;
 	top: 100%;
+	left: 3%;
 	padding-left: 50px;
 	color: black;
 	font-size: 35px;
@@ -32,7 +33,7 @@
 .nav-social {
 	position: relative;
 	top: 100%;
-	padding-left: 40px;
+	left: 150px;
 	text-decoration: none; 
 }
 

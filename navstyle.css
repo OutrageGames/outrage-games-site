@@ -9,31 +9,38 @@
 .nav-menu{
 	text-align: center;
 	height: 100px;
+	left: 50%;
 }
 
 .nav-logo{
-	position: absolute;
-	top: 8%;
-	left: 20%;
+	/* position: absolute;
+	text-align: center; */
+	/* left: 50%; */
 	max-width:150px;
     width:100%;
+	display: block;
+	margin-left: auto;
+	margin-right: auto;
+	position: relative;
+	top: 10%;
+	-webkit-user-drag: none;
 }
 
 .nav-btn {
 	position: relative;
-	top: 100%;
-	left: 3%;
-	padding-left: 50px;
+	top: 20%;
+	left: 0%;
+	padding: 30px;
 	color: black;
-	font-size: 35px;
+	font-size: 30px;
 	text-decoration: none; 
 	width: 200px;
 }
 
 .nav-social {
 	position: relative;
-	top: 100%;
-	left: 150px;
+	top: 20%;
+	left: 20px;
 	text-decoration: none; 
 }
 

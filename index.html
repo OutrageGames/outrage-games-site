@@ -8,78 +8,174 @@
         <meta charset="utf-8">
         <link rel="shortcut icon" href="images/site_icon.png"/>
         <link rel="stylesheet" href="navstyle.css">
-        <link rel="stylesheet" href="homestyle.css">
+        <link rel="stylesheet" href="kwstyle.css">
         <link rel="stylesheet" href="generalstyle.css">
-        <!-- <link rel="preload" as="font" href="/fonts/kwfont.ttf" type="font/ttf" crossorigin="anonymous"> -->
 
     </head>
 
-    <body>   
+    <script>
+        window.onload = function(){
+            bod = document.getElementById("body")
+            bod.style.fontFamily = localStorage.getItem("fontt");
+        }
+
+        function changeStyle(){
+            bod = document.getElementById("body")
+
+            if(bod.style.fontFamily == "kwfontregular")
+            {
+                bod.style.fontFamily = "bluenesia";
+                localStorage.setItem("fontt", bod.style.fontFamily);
+            }
+            else
+            {
+                bod.style.fontFamily = "kwfontregular";
+                localStorage.setItem("fontt", bod.style.fontFamily);
+            }
+        }
+    </script>
+
+    <body id="body">
 
         <div class="nav-bg-img">
-            
             <div class="nav-menu">
-                <a href="index.html"><img class="nav-logo" src="images/logo.png"></a>
-                <a class="nav-btn" href="index.html">HOME</a>
-                <a class="nav-btn" href="kw.html">KW</a>
-                <a class="nav-btn" href="art.html">ART</a>
-                <a class="nav-btn" href="about.html">ABOUT</a>
-
+                <img class="nav-logo" src="images/logo.png">
+                
+                <a class="nav-btn" href="pixelart.html">PIXEL ART</a>
+                <a class="nav-btn" href="art.html">ILLUSTRATIONS</a>
+                <a class="nav-btn" href="about.html">ABOUT / CONTACT</a>
+                
                 <a class="nav-social" href="mailto: outragegames@hotmail.com" target="_blank" >
                     <img style="width: 30px;" src="images/emaillogo.png"/>
                 </a>
-                <a class="nav-social" href="https://discord.com/invite/dYKuAvq" target="_blank" >
-                    <img style="width: 30px;" src="images/discordlogo.png"/>
-                </a> 
-                <a class="nav-social" href="https://www.youtube.com/c/OutrageGames" target="_blank" >
-                    <img style="width: 30px;" src="images/youtubelogo.png"/>
-                </a>    
-                <a class="nav-social" href="https://www.tiktok.com/@outragegames" target="_blank" >
-                    <img style="width: 30px;" src="images/tiktoklogo.png"/>
-                </a> 
-                <a class="nav-social" href="https://www.patreon.com/outragegames" target="_blank" >
-                    <img style="width: 30px;" src="images/patreonlogo.png"/>
-                </a>   
 
+                <href  class="nav-social" style="left: 80px; top: 40px; cursor: pointer; width: 147px; height: 60px;" onclick="changeStyle()"><img src="videos/changefont.gif"></href>
             </div>
         </div>
 
         <br><br><br>
         <div class="body-text" style="font-size: 70px;">
-            Welcome to Outrage Games!
+            PIXEL ART!
         </div>
         <div class="body-text" style="font-size: 32px;">
-            Games, Videos, Fun, Outrage.
+            Looking for the best pixel art in the world? You just found it!
         </div>
 
         <br><br><br><br><br>
 
-        
-        
-        <iframe class="youtube-vid" width="960" height="540" 
-        src="https://www.youtube.com/embed/ZvR392chc6w?autoplay=0&showinfo=0&controls=0" frameborder="0" allowfullscreen>
-        </iframe>
-        
+        <!-- <div class="container">
+
+            <script>
+                var possibleVideos =
+                 ["videos/shooting_erebus.mp4",
+                 "videos/Aevilok.mp4",
+                 "videos/bats.mp4", 
+                 "videos/outrage_showcase.mp4",
+                 "videos/erebus_launcher.mp4"];
+            </script>
+
+            
+            <video loop autoplay muted class="youtube-vid" id = "kw_video1">
+                <source type="video/mp4">
+            </video>
+
+            <script>
+                var randomVideo1 = possibleVideos[Math.floor(Math.random() * possibleVideos.length)];
+                document.getElementById("kw_video1").src = randomVideo1;
+            </script>
+
+            
+
+            <div class="description-text" style="font-size: 24px; margin-left: 100px;">
+                <p>
+                    KW is a 2D online platformer, made<br>
+                    using Unity 3D game engine and Steam's<br>
+                    networking system.<br>
+
+                </p>
+            </div>
+        </div> -->
+
+        <div class="container">
+
+            <div class="description-text" style="font-size: 24px; margin-right: 100px;">
+                <p>
+                    Fun fact: this pixel art font is also mine!
+                </p>
+            </div>
+
+
+                <img class="pixelgif" src="videos/bo-man-jax.gif"><br><br><br><br><br>
+
+
+            
+        </div>
 
 
 
+        <div class="container">
+
+            <div class="description-text" style="font-size: 24px; margin-right: 100px;">
+                <p>
+                    You can choose between Warriors and guns<br>
+                        and fight others. Each Warrior has 2 individual<br>
+                        skills.
+                </p>
+            </div>
+
+
+                <img class="pixelgif" src="videos/bo-man-spear.gif"><br><br><br><br><br>
+
+
+            
+        </div>
+
+
+        <div class="container">
+
+            <div class="description-text" style="font-size: 24px; margin-right: 100px;">
+                <p>
+                    You can choose between Warriors and guns<br>
+                        and fight others. Each Warrior has 2 individual<br>
+                        skills.
+                </p>
+            </div>
+
+
+                <img class="pixelgif" src="videos/smallman-hit.gif"><br><br><br><br><br>
+
+
+            
+        </div>
 
 
 
+        <div class="container">
+
+            <div class="description-text"  style="font-size: 24px; margin-right: 100px;">
+                <p>
+                    You can choose between Warriors and guns<br>
+                        and fight others. Each Warrior has 2 individual<br>
+                        skills.
+                </p>
+            </div>
 
 
-        <br>
-        <div class="body-text" style="font-size: 20px;">Outrage Games Youtube trailer.</div>  
-        <br><br><br><br><br><br><br><br><br><br>
+                <img class="pixelgif" src="videos/bo-man-2kicks.gif"><br><br><br><br><br>
 
 
+            
+        </div>
+
+      
+
+         <br><br><br><br><br><br><br><br><br><br>
 
         <div class="rights-text" style="font-size: 12px; text-align: center;">
             <p><i>@All rights reserved by Outrage Games | W0NK Creative Agency</i></p>
         </div>
-        
-        <br><br>
 
+        <br><br> 
 
 
     </body>

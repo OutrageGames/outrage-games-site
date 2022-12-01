@@ -13,58 +13,55 @@
 
     </head>
 
-    <body>   
+
+    <body id="body">   
 
         <div class="nav-bg-img">
             
-            <div class="nav-menu">
-                <a href="index.html"><img class="nav-logo" src="images/logo.png"></a>
-                <a class="nav-btn" href="index.html">HOME</a>
-                <a class="nav-btn" href="kw.html">KW</a>
-                <a class="nav-btn" href="art.html">ART</a>
-                <a class="nav-btn" href="about.html">ABOUT</a>
-                
-                <a class="nav-social" href="mailto: outragegames@hotmail.com" target="_blank" >
-                    <img style="width: 30px;" src="images/emaillogo.png"/>
-                </a>
-                <a class="nav-social" href="https://discord.com/invite/dYKuAvq" target="_blank" >
-                    <img style="width: 30px;" src="images/discordlogo.png"/>
-                </a> 
-                <a class="nav-social" href="https://www.youtube.com/c/OutrageGames" target="_blank" >
-                    <img style="width: 30px;" src="images/youtubelogo.png"/>
-                </a>    
-                <a class="nav-social" href="https://www.tiktok.com/@outragegames" target="_blank" >
-                    <img style="width: 30px;" src="images/tiktoklogo.png"/>
-                </a> 
-                <a class="nav-social" href="https://www.patreon.com/outragegames" target="_blank" >
-                    <img style="width: 30px;" src="images/patreonlogo.png"/>
-                </a>   
-                
+            <div class="nav-bg-img">
+                <div class="nav-menu">
+                    <img class="nav-logo" src="images/logo.png">
+                    
+                    <a class="nav-btn" href="pixelart.html">PIXEL ART</a>
+                    <a class="nav-btn" href="art.html">ILLUSTRATIONS</a>
+                    <a class="nav-btn" href="about.html">ABOUT / CONTACT</a>
+                    
+                    <a class="nav-social" href="mailto: outragegames@hotmail.com" target="_blank" >
+                        <img style="width: 30px;" src="images/emaillogo.png"/>
+                    </a>
+    
+                    <href  class="nav-social" style="left: 80px; top: 40px; cursor: pointer; width: 147px; height: 60px;" onclick="changeStyle()"><img src="videos/changefont.gif"></href>
+                </div>
             </div>
         </div>
 
         <br><br><br>
 
         <div class="body-text" style="font-size: 28px; text-transform:uppercase;">
-            My name is Outrage also known as.. Outrage.<br><br>
+            Hello! This is Outrage.. (of course).<br><br>
 
-            I am a Game Developer from Greece and I make videos on Youtube about <br>
-            my game development experience, whether these are tutorials, devlogs <br>
-            or (not) funny videos.<br><br>
+            I am a <li> Game Developer<li>pixel artist and <li> illustrator <br> from Greece.<br><br>
+            my passion was, is and will always be<br>game development and the artistic aspect of it. <br><br>
 
-            I have a Youtube channel with 200.000+ views and 2000+ subscribers.<br><br>
-
-            Currently I am working on a 2D online platformer (Keyboard Warriors).<br><br>
-
-            If you want to work with me, or ask anything, feel free to <a style="color: white; " href="mailto: outragegames@hotmail.com">contact!</a><br><br>
+            If you like my work, feel free to <a style="color: white; " href="mailto: outragegames@hotmail.com">contact me!</a><br><br>
+            (cv provided upon request)<br><br>
 
             Email : outragegames@hotmail.com<br>
-            Discord : Outrage#3733<br>
+            Discord : Outrage#3733<br><br><br>
+
+            You like my art? You should really see my:<br><br>
+                 
+            <li>    
+                <a style="color: white; " href="kw.html" target="_blank" >
+                    Game
+                </a>   
+            <li>    
+                <a style="color: white; " href="https://www.youtube.com/c/OutrageGames" target="_blank" >
+                    Youtube channel
+                </a>  
+               
         </div>
 
-        <br><br><br><br><br>
-        <br><br><br><br><br>
-        <br><br><br><br><br>
         <br><br><br><br><br>
         <br><br><br><br><br>
 
@@ -84,3 +81,25 @@
     </body>
 
 </html>
+
+<script>
+    window.onload = function(){
+        bod = document.getElementById("body")
+        bod.style.fontFamily = localStorage.getItem("fontt");
+    }
+
+    function changeStyle(){
+        bod = document.getElementById("body")
+
+        if(bod.style.fontFamily == "kwfontregular")
+        {
+            bod.style.fontFamily = "bluenesia";
+            localStorage.setItem("fontt", bod.style.fontFamily);
+        }
+        else
+        {
+            bod.style.fontFamily = "kwfontregular";
+            localStorage.setItem("fontt", bod.style.fontFamily);
+        }
+    }
+</script>

@@ -17,11 +17,16 @@
 }
 
 .gal-img {
-	margin: 60px;
+	margin: -14px;
 	width: 400px;
 	height: 400px;
-	box-shadow: 0px 0px 20px rgb(0, 0, 0);	
+	/* box-shadow: 0px 0px 20px rgb(0, 0, 0);	 */
 	transition: ease-out;
+
+	/* width: 0px; */
+	-webkit-filter: drop-shadow(5px 5px 5px #000000);
+	filter: drop-shadow(5px 5px 5px #000000);
+
 }
 
 .gal-big-img{
@@ -42,7 +47,7 @@
 
 #myImg:hover {
 	transform: scale(1.05);
-	box-shadow: 0 0 50px rgba(0, 0, 0, 0.5);
+	/* box-shadow: 0 0 50px rgba(0, 0, 0, 0.5); */
 }
 
 .modal {

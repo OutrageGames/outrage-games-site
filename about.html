@@ -1,5 +1,7 @@
 <!DOCTYPE html>
 
+<script src="js/init.js"></script>
+
 <html>
 
     <head>
@@ -22,7 +24,7 @@
                 <div class="nav-menu">
                     <img class="nav-logo" src="images/logo.png">
                     
-                    <a class="nav-btn" href="pixelart.html">PIXEL ART</a>
+                    <a class="nav-btn" href="index.html">PIXEL ART</a>
                     <a class="nav-btn" href="art.html">ILLUSTRATIONS</a>
                     <a class="nav-btn" href="about.html">ABOUT / CONTACT</a>
                     
@@ -51,11 +53,11 @@
 
             You like my art? You should really see my:<br><br>
                  
-            <li>    
+            <!-- <li>    
                 <a style="color: white; " href="kw.html" target="_blank" >
                     Game
                 </a>   
-            <li>    
+            <li>     -->
                 <a style="color: white; " href="https://www.youtube.com/c/OutrageGames" target="_blank" >
                     Youtube channel
                 </a>  
@@ -66,12 +68,8 @@
         <br><br><br><br><br>
 
 
-
-
-
-
-        <div class="rights-text" style="font-size: 12px; text-align: center;">
-            <p><i>@All rights reserved by Outrage Games | W0NK Creative Agency</i></p>
+        <div class="rights-text" style="font-size: 15px; text-align: right;">
+            <p><i>@All rights reserved by Outrage Games | W0NK Creative Agency  .</i></p>
         </div>
         
         <br><br>
@@ -81,25 +79,3 @@
     </body>
 
 </html>
-
-<script>
-    window.onload = function(){
-        bod = document.getElementById("body")
-        bod.style.fontFamily = localStorage.getItem("fontt");
-    }
-
-    function changeStyle(){
-        bod = document.getElementById("body")
-
-        if(bod.style.fontFamily == "kwfontregular")
-        {
-            bod.style.fontFamily = "bluenesia";
-            localStorage.setItem("fontt", bod.style.fontFamily);
-        }
-        else
-        {
-            bod.style.fontFamily = "kwfontregular";
-            localStorage.setItem("fontt", bod.style.fontFamily);
-        }
-    }
-</script>

@@ -1,5 +1,7 @@
 <!DOCTYPE html>
 
+<script src="js/init.js"></script>
+
 <html>
 
     <head>
@@ -13,35 +15,13 @@
 
     </head>
 
-    <script>
-        window.onload = function(){
-            bod = document.getElementById("body")
-            bod.style.fontFamily = localStorage.getItem("fontt") ?? "kwfontregular";
-        }
-
-        function changeStyle(){
-            bod = document.getElementById("body")
-
-            if(bod.style.fontFamily == "kwfontregular")
-            {
-                bod.style.fontFamily = "bluenesia";
-                localStorage.setItem("fontt", bod.style.fontFamily);
-            }
-            else
-            {
-                bod.style.fontFamily = "kwfontregular";
-                localStorage.setItem("fontt", bod.style.fontFamily);
-            }
-        }
-    </script>
-
     <body id="body">
 
         <div class="nav-bg-img">
             <div class="nav-menu">
                 <img class="nav-logo" src="images/logo.png">
                 
-                <a class="nav-btn" href="pixelart.html">PIXEL ART</a>
+                <a class="nav-btn" href="index.html">PIXEL ART</a>
                 <a class="nav-btn" href="art.html">ILLUSTRATIONS</a>
                 <a class="nav-btn" href="about.html">ABOUT / CONTACT</a>
                 
@@ -58,121 +38,214 @@
             PIXEL ART!
         </div>
         <div class="body-text" style="font-size: 32px;">
-            Looking for the best pixel art in the world? You just found it!
+            featuring:
+        </div>
+
+        <br><br>
+
+        <div class="container">
+
+            <div class="body-text" style="font-size: 32px;">
+                The "good" guy:
+                <br><br><br><br>
+                <img class="pixelgif"  src="videos/circles.gif"><br><br><br><br><br>
+                <br>
+            </div>
+
+            <div class="body-text" style="font-size: 32px; margin-left: 150px;">
+                VS
+                <br><br><br><br>
+
+            </div>
+
+            <div class="body-text" style="font-size: 32px; margin-left: 150px;">
+                The "bad" guy:
+                <br><br><br><br>
+                <img class="pixelgif"  src="videos/circlesbad.gif"><br><br><br><br><br>
+                <br>
+            </div>
+
+        </div>>
+
+        
+
+        <div class="description-text" style="font-size: 40px; ">
+            <p>
+                Weapon 1: <u>Bo Stick</u>
+            </p>
         </div>
 
         <br><br><br><br><br>
 
-        <!-- <div class="container">
+        <div class="container">
 
-            <script>
-                var possibleVideos =
-                 ["videos/shooting_erebus.mp4",
-                 "videos/Aevilok.mp4",
-                 "videos/bats.mp4", 
-                 "videos/outrage_showcase.mp4",
-                 "videos/erebus_launcher.mp4"];
-            </script>
-
-            
-            <video loop autoplay muted class="youtube-vid" id = "kw_video1">
-                <source type="video/mp4">
-            </video>
-
-            <script>
-                var randomVideo1 = possibleVideos[Math.floor(Math.random() * possibleVideos.length)];
-                document.getElementById("kw_video1").src = randomVideo1;
-            </script>
-
-            
-
-            <div class="description-text" style="font-size: 24px; margin-left: 100px;">
+            <div class="description-text" style="font-size: 24px; ">
                 <p>
-                    KW is a 2D online platformer, made<br>
-                    using Unity 3D game engine and Steam's<br>
-                    networking system.<br>
-
+                    1. Spear shot
                 </p>
             </div>
-        </div> -->
+
+
+                <img class="pixelgif" src="videos/spear.gif">
+
+        </div>
+
+        <br><br><br><br><br>
+
+        <div class="container">
+
+            <div class="description-text" style="font-size: 24px; ">
+                <p>
+                    2. Image if I had a real weapon
+                </p>
+            </div>
+
+
+                <img class="pixelgif" style="margin-top: -150px;" src="videos/jax.gif"><br><br><br><br><br>
+
+        </div>
+
+        <div class="container">
+
+            <div class="description-text" style="font-size: 24px;">
+                <p>
+                    3. Wombo Combo!
+                </p>
+            </div>
+
+
+                <img class="pixelgif" src="videos/wombo.gif"><br><br><br><br><br>
+
+
+            
+        </div>
+
+        
+
+        <div class="container">
+
+            <div class="description-text" style="font-size: 24px;">
+                <p>
+                    4. Double Kick
+                </p>
+            </div>
+
+
+                <img class="pixelgif" src="videos/kicks.gif"><br><br><br><br><br>
+
+
+            
+        </div>
+        
+        <br><br><br><br><br>
+            
+        <div class="description-text" style="font-size: 40px; ">
+            <p>
+                Weapon 2: <u>Katana Saber</u>
+            </p>
+        </div>
+
+        <br><br><br><br><br>
+
+        <div class="container">
+
+            <div class="description-text" style="font-size: 24px; ">
+                <p>
+                    1. Alpha strike
+                </p>
+            </div>
+
+
+                <img class="pixelgif" src="videos/masteryi.gif">
+
+        </div>
+
+        <br><br><br><br><br><br><br><br><br><br>
+
+        <div class="container">
+
+            <div class="description-text" style="font-size: 24px; ">
+                <p>
+                    2. Now, I have a real weapon
+                </p>
+            </div>
+
+
+                <img class="pixelgif" style="margin-top: -150px;" src="videos/sword1.gif"><br><br><br><br><br>
+
+        </div>
+
+        <div class="container">
+
+            <div class="description-text" style="font-size: 24px;">
+                <p>
+                    3. Wombo Combo!
+                </p>
+            </div>
+
+
+                <img class="pixelgif" src="videos/sword2.gif"><br><br><br><br><br>
+
+
+            
+        </div>
+
+        <br><br><br><br>
 
         <div class="container">
 
             <div class="description-text" style="font-size: 24px; margin-right: 100px;">
                 <p>
-                    Fun fact: this pixel art font is also mine!
+                    Look at this small and cute bodybuilder:
                 </p>
             </div>
 
 
-                <img class="pixelgif" src="videos/bo-man-jax.gif"><br><br><br><br><br>
+                <img class="pixelgif" style="margin-top: -80px;" src="videos/smallwalk.gif"><br><br><br><br><br>
 
+
+        </div>
+        <br><br><br>
+
+            <div class="description-text" style="font-size: 20px; font-style: italic;">
+
+                    "I am not cute, neither small!"
+
+
+        <br>
+
+                <img class="pixelgif" style="margin-top: -110px;" src="videos/smallmanhit.gif"><br><br><br><br><br>
+            </div>
 
             
         </div>
 
-
+        
+        
+        <br><br><br><br><br>
 
         <div class="container">
+            
 
-            <div class="description-text" style="font-size: 24px; margin-right: 100px;">
-                <p>
-                    You can choose between Warriors and guns<br>
-                        and fight others. Each Warrior has 2 individual<br>
-                        skills.
-                </p>
+            <div class="body-text"style="font-size: 24px; font-style: italic;" >
+                "But, I waNt high-res pixel art"
+                <br><br><br><br>
+                <img class="pixelgif"  style="size: 1500px; margin-top: -60px; " src="videos/crybaby.gif"><br><br><br><br><br>
+                <br>
             </div>
 
-
-                <img class="pixelgif" src="videos/bo-man-spear.gif"><br><br><br><br><br>
-
-
-            
-        </div>
-
-
-        <div class="container">
-
-            <div class="description-text" style="font-size: 24px; margin-right: 100px;">
-                <p>
-                    You can choose between Warriors and guns<br>
-                        and fight others. Each Warrior has 2 individual<br>
-                        skills.
-                </p>
+            <div class="body-text"style="font-size: 24px; font-style: italic; margin-left: 400px;" >
+                *Low-res pixel art enjoyer*
+                <br><br><br><br>
+                <img class="pixelgif"  style="margin-top: -60px;" src="videos/chad.gif"><br><br><br><br><br>
+                <br>
             </div>
-
-
-                <img class="pixelgif" src="videos/smallman-hit.gif"><br><br><br><br><br>
-
-
-            
         </div>
 
 
 
-        <div class="container">
-
-            <div class="description-text"  style="font-size: 24px; margin-right: 100px;">
-                <p>
-                    You can choose between Warriors and guns<br>
-                        and fight others. Each Warrior has 2 individual<br>
-                        skills.
-                </p>
-            </div>
-
-
-                <img class="pixelgif" src="videos/bo-man-2kicks.gif"><br><br><br><br><br>
-
-
-            
-        </div>
-
-      
-
-         <br><br><br><br><br><br><br><br><br><br>
-
-        <div class="rights-text" style="font-size: 12px; text-align: center;">
-            <p><i>@All rights reserved by Outrage Games | W0NK Creative Agency</i></p>
+        <div class="rights-text" style="font-size: 15px; text-align: right;">
+            <p><i>@All rights reserved by Outrage Games | W0NK Creative Agency  .</i></p>
         </div>
 
         <br><br> 

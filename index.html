@@ -16,7 +16,7 @@
     <script>
         window.onload = function(){
             bod = document.getElementById("body")
-            bod.style.fontFamily = localStorage.getItem("fontt");
+            bod.style.fontFamily = localStorage.getItem("fontt") ?? "kwfontregular";
         }
 
         function changeStyle(){

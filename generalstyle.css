@@ -1,5 +1,6 @@
 body{
 	background-image: url("images/body-background.png");
+	backdrop-filter: blur(1px);
 	margin: 0px;
 	background-attachment: fixed;
 }

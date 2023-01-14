@@ -24,8 +24,8 @@
 	transition: ease-out;
 
 	/* width: 0px; */
-	-webkit-filter: drop-shadow(5px 5px 2px #ffffff3b);
-	filter: drop-shadow(5px 5px 2px #ffffff3b);
+	/* -webkit-filter: drop-shadow(5px 5px 2px #ffffff3b);
+	filter: drop-shadow(5px 5px 2px #ffffff3b); */
 
 }
 
@@ -146,3 +146,4 @@
 .card:hover .img-top {
 	display: inline;
 }
+

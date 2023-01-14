@@ -1,6 +1,6 @@
 .nav-bg-img {
 	background-image: url("images/nav-background.png");
-	height: 321px;
+	height: 150px;
 	/* position: fixed; */
   	/* top: 0; */
   	width: 100%;	
@@ -15,31 +15,29 @@
 .nav-logo{
 	/* position: absolute;
 	text-align: center; */
-	/* left: 50%; */
+	left: 4%;
 	max-width:150px;
-    width:100%;
+    /* width:100%; */
 	display: block;
-	margin-left: auto;
-	margin-right: auto;
 	position: relative;
 	top: 10%;
-	-webkit-user-drag: none;
+	/* -webkit-user-drag: none; */
 }
 
 .nav-btn {
 	position: relative;
-	top: 20%;
+	top: -55px;
 	left: 0%;
 	padding: 30px;
 	color: black;
 	font-size: 30px;
 	text-decoration: none; 
-	width: 200px;
+	/* width: 200px; */
 }
 
 .nav-social {
 	position: relative;
-	top: 20%;
+	top: -55px;
 	left: 20px;
 	text-decoration: none; 
 }

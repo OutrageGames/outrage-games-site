@@ -24,8 +24,8 @@
 	transition: ease-out;
 
 	/* width: 0px; */
-	-webkit-filter: drop-shadow(5px 5px 5px #000000);
-	filter: drop-shadow(5px 5px 5px #000000);
+	-webkit-filter: drop-shadow(5px 5px 2px #ffffff3b);
+	filter: drop-shadow(5px 5px 2px #ffffff3b);
 
 }
 
@@ -67,9 +67,9 @@
 	/* Full height */
 	overflow: auto;
 	/* Enable scroll if needed */
-	background-color: rgb(0, 0, 0);
+	background-color: rgb(255, 255, 255);
 	/* Fallback color */
-	background-color: rgba(0, 0, 0, 0.9);
+	background-color: rgba(255, 255, 255, 0.9);
 	/* Black w/ opacity */
 }
 
@@ -127,4 +127,22 @@
 	.modal-content {
 		width: 100%;
 	}
+}
+
+.card {
+	width: 500px;
+	height: 500px;
+	position: relative;
+	display: inline-block;
+	text-align: center;
+}
+.card .img-top {
+	display: none;
+	position: absolute;
+	top: 0;
+	left: 0;
+	z-index: 99;
+}
+.card:hover .img-top {
+	display: inline;
 }

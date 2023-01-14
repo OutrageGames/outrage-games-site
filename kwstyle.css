@@ -42,3 +42,19 @@
 	margin: -40px;
 	pointer-events: none;
 }
+
+.imgbtn {
+    /* filter: grayscale(100%); */
+	filter: brightness(0) invert(1);
+    -webkit-filter: grayscale(0);
+	width: 200px;
+	image-rendering: pixelated;
+  	image-rendering: -moz-crisp-edges;
+  	image-rendering: crisp-edges;
+}
+
+.imgbtn:hover {
+    /* filter: none; */
+    -webkit-filter: grayscale(100);
+	filter: brightness(0) invert(1);
+}

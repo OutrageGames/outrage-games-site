@@ -111,6 +111,7 @@ body{
 
 .imgbtn:hover {
     /* filter: none; */
-    -webkit-filter: grayscale(100);
+    /* -webkit-filter: grayscale(0); */
 	filter: brightness(0) invert(1);
+	color: #ffffff;
 }

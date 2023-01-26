@@ -1,6 +1,6 @@
 body{
 	background-image: url("images/body-background.png");
-	backdrop-filter: blur(1px);
+	backdrop-filter: blur(2px);
 	margin: 0px;
 	background-attachment: fixed;
 	font-family: 'bluenesia';
@@ -112,6 +112,6 @@ body{
 .imgbtn:hover {
     /* filter: none; */
     /* -webkit-filter: grayscale(0); */
-	filter: brightness(0) invert(1);
+	filter: brightness(2);
 	color: #ffffff;
 }

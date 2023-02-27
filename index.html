@@ -1,270 +1,227 @@
 <!DOCTYPE html>
+<html lang="en">
+<head>
+  <title>Outrage</title>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="description" content="HTML5 website template">
+  <meta name="keywords" content="global, template, html, sass, jquery">
+  <meta name="author" content="Bucky Maler">
+  <link rel="stylesheet" href="assets/css/main.css">
+  <link rel="icon" type="image/x-icon" href="assets/img/smalllogo.png">
+</head>
+<body>
 
-<!-- <script src="js/init.js"></script> -->
+<!-- notification for small viewports and landscape oriented smartphones -->
+<div class="device-notification">
+  <a class="device-notification--logo" href="#0">
+    <img src="assets/img/logo.png" alt="Global">
+    <p>Global</p>
+  </a>
+  <p class="device-notification--message">Global has so much to offer that we must request you orient your device to portrait or find a larger screen. You won't be disappointed.</p>
+</div>
 
-<html>
+<div class="perspective effect-rotate-left">
+  <div class="container"><div class="outer-nav--return"></div>
+    <div id="viewport" class="l-viewport">
+      <div class="l-wrapper">
+        <header class="header">
+          <a class="header--logo" href="#0">
+            <img src="assets/img/logo.png" alt="Global" width="400" style="margin-top: 250px;">
+            <p></p>
+          </a>
+          <button class="header--cta cta">DRAW FOR ME</button>
+          <div class="header--nav-toggle">
+            <span></span>
+          </div>
+        </header>
+        <nav class="l-side-nav">
+          <ul class="side-nav">
+            <li class="is-active"><span>Home</span></li>
+            <li><span>Art</span></li>
+            <li><span>About</span></li>
+            <li><span>Contact</span></li>
+          </ul>
+        </nav>
+        <ul class="l-main-content main-content">
+          <li class="l-section section section--is-active">
+            <div class="intro">
+              <div class="intro--banner" >
+                <h1 style="font-size: 80px;" >Welcome to Outrage!<br>Where Cute,<br>is King.</h1>
 
-    <head>
-
-        <title>Outrage Games</title>
-        <meta charset="utf-8">
-        <link rel="shortcut icon" href="images/site_icon.png"/>
-        <link rel="stylesheet" href="navstyle.css">
-        <!-- <link rel="stylesheet" href="kwstyle.css"> -->
-        <link rel="stylesheet" href="generalstyle.css">
-
-    </head>
-
-    <body id="body" style="font-family: 'dimbo'; ">
-
-        <div class="nav-bg-img">
-            <div class="nav-menu">
-                <a href="index.html" ><img style="width: 10%; margin-top: 10px;"  src="images/logo.png"></a>
+                <br><br><br>
+                <img src="assets/img/cat.png" alt="Welcome" width="250">
+                <div class="intro--options"><a href="#0"><p><b>CLIENT FEEDBACK:</b></p></a></div>
+              </div>
+              <div class="intro--options">
+                
+                <a href="#0">
+                  <h3>Upwork client</h3>
+                  <p><i>"Highly skilled artist! Very easy to work with and understood all requirements. Very recommended!! Will hire again for similar jobs!"</i></p>
+                </a>
+                <a href="#0">
+                  <h3>CRUCIBLE AI</h3>
+                  <p><i>"Thank you for your amazing work! Your work has helped us learn so much about what we're building, and we're especially grateful for 
+                    how diligent you are and for how easy it has been to work with you."</i></p>
+                </a>
+                <a href="#0">
+                  <h3>Adam Kormos</h3>
+                  <p><i>"I really like them all! Thank you for your fast service!"</i></p>
+                </a>
+              </div>
             </div>
-
-            <a class="nav-btn" style="left: 80%; top: -65px;" href="about.html">ABOUT</a>
-
-                <a class="nav-social" style="left: 80%; top: -65px;" href="mailto: outragegames@hotmail.com" target="_blank" >
-                    <img style="width: 30px;" src="images/emaillogo.png"/>
-            </a>
-        </div>
-
-        <div>
-
-        <div class="body-text" style="font-size: 70px;">
-            WELCOME TO OUTRAGE!
-        </div>
-        <br>
-        <div class="body-text" style="font-size: 32px;">
-            Are you feeling more in the mood for some some pixel art magic or illustration awesomeness today?
-        </div>
-
-        <br><br>
-
-        <div class="container">
-
-            <div class="body-text" style="font-size: 32px; padding-inline: 2%;">
-                PIXEL ART:
-                <br><br>
-                <a href="ChoosePixelart.html"> <img class="imgbtn" style="width: 300px;"  src="Media/pixelfaces.gif"> </a> <br><br><br><br><br>
-            </div>
-
-            <div class="body-text" style="font-size: 32px; padding-inline: 2%; text-align: center;">
-                VS
-                <br><br><br><br>
-
-            </div>
-
-            <div class="body-text" style="font-size: 32px; padding-inline: 2%;">
-                ILLUSTRATIONS:
-                <br><br>
-                <a href="ChooseArt.html"> <img class="imgbtn" style="width: 300px;" src="Media/Illustrations/Splash/outrageface.gif"> </a> <br><br><br><br><br>
-            </div>
-        </div>
-        
-        <br>
-        <div class="container">
-            <div class="body-text" style="font-size: 32px; margin-top: -250px;">
-                Not ready for top-notch quality? You may want to come back later.
-            </div>
-        </div>
-
-        
-
-        <!-- <div class="description-text" style="font-size: 40px; ">
-            <p>
-                Weapon 1: <u>Bo Stick</u>
-            </p>
-        </div>
-
-        <br><br><br><br><br>
-
-        <div class="container">
-
-            <div class="description-text" style="font-size: 24px; ">
-                <p>
-                    1. Spear shot
-                </p>
-            </div>
+          </li>
+          <li class="l-section section">
 
 
-                <img class="pixelgif" src="videos/spear.gif">
 
-        </div>
+            <div class="work">
+              <h2>Art</h2>
+              <div class="work--lockup">
 
-        <div class="container">
+                <div id="slider">
+                  <input type="radio" name="slider" id="slide1" checked>
+                  <input type="radio" name="slider" id="slide2">
+                  <input type="radio" name="slider" id="slide3">
+                  <input type="radio" name="slider" id="slide4">
+                  <input type="radio" name="slider" id="slide5">
+                  <div id="slides">
+                     <div id="overflow">
+                        <div class="inner">
 
-            <div class="description-text" style="font-size: 24px;">
-                <p>
-                    1. Spear shot
-                </p>
-            </div>
+                           <div class="slide slide_1">
+                              <div class="slide-content">
+                                <div>
+                                  <h2>Scared<br><p>or what?</p></h2>
+                                  <img style="width: 70%;" src="assets/img/Creepy.png">
+                                </div>
+                              </div>
+                           </div>
 
+                           
+                           <div class="slide slide_2">
+                            <div class="slide-content">
+                              <div>
+                                <h2>Yeah,<br><p>what?</p></h2>
+                                <img style="width: 65%;" src="assets/img/Angry3.png">
+                              </div>
+                            </div>
+                         </div> 
 
-                <img class="pixelgif" style="width: 40%;" src="videos/med-res-bo.gif">
+                         <div class="slide slide_3">
+                          <div class="slide-content">
+                            <div>
+                              <h2>Problem?<br></h2>
+                              <img style="width: 70%;" src="assets/img/Angryman.png">
+                            </div>
+                          </div>
+                       </div> 
 
-        </div>
+                       <div class="slide slide_4">
+                        <div class="slide-content">
+                          <div>
+                            <h2>O-o</h2><br>
+                            <img style="width: 70%;" src="assets/img/brain.png">
+                          </div>
+                        </div>
+                     </div> 
 
-        <br><br><br><br><br>
+                     <div class="slide slide_5">
+                      <div class="slide-content">
+                          <h2>Plants..</h2>
+                        <div>
+                          <img style="width: 60%;" src="assets/img/glastra.png">
+                        </div>
+                      </div>
+                   </div> 
 
-        <div class="container">
+                          
 
-            <div class="description-text" style="font-size: 24px; ">
-                <p>
-                    2. Image if I had a real weapon
-                </p>
-            </div>
+                           
+                        </div>
+                     </div>
+                  </div>
+                  <div id="controls">
+                     <label for="slide1"></label>
+                     <label for="slide2"></label>
+                     <label for="slide3"></label>
+                     <label for="slide4"></label>
+                     <label for="slide5"></label>
+                  </div>
+                  <div id="bullets">
+                     <label for="slide1"></label>
+                     <label for="slide2"></label>
+                     <label for="slide3"></label>
+                     <label for="slide4"></label>
+                     <label for="slide5"></label>
+                  </div>
+               </div>
+                
+                
 
-
-                <img class="pixelgif" style="margin-top: -150px;" src="videos/jax.gif"><br><br><br><br><br>
-
-        </div>
-
-        <div class="container">
-
-            <div class="description-text" style="font-size: 24px;">
-                <p>
-                    3. Wombo Combo!
-                </p>
-            </div>
-
-
-                <img class="pixelgif" src="videos/wombo.gif"><br><br><br><br><br>
-
-
-            
-        </div> -->
-
-        
-
-        <!-- <div class="container">
-
-            <div class="description-text" style="font-size: 24px;">
-                <p>
-                    4. Double Kick
-                </p>
-            </div>
-
-
-                <img class="pixelgif" src="videos/kicks.gif"><br><br><br><br><br>
-
-
-            
-        </div>
-        
-        <br><br><br><br><br>
-            
-        <div class="description-text" style="font-size: 40px; ">
-            <p>
-                Weapon 2: <u>Katana Saber</u>
-            </p>
-        </div>
-
-        <br><br><br><br><br>
-
-        <div class="container">
-
-            <div class="description-text" style="font-size: 24px; ">
-                <p>
-                    1. Alpha strike
-                </p>
+              </div>
             </div>
 
 
-                <img class="pixelgif" src="videos/masteryi.gif">
 
-        </div>
 
-        <br><br><br><br><br><br><br><br><br><br>
+          
+          </li>
+          <li class="l-section section">
+            <div class="about">
+              <div class="about--banner">
+                <p style="font-size: 42px; margin-top: -40px;">
+                  <i>
+                    "I'm Marios, a 23-year-old illustrator fueled by passion and creativity!<br></p>
+                    <p style="font-size: 34px; ">
+                    I do have a Bachelor's degree in computer science, but my heart beats for art.<br>
+                    You know what else gets my blood pumping? Hitting the gym and chowing down on nutritious grub.<br><br></p>
+                    <p style="font-size: 30px; ">
+                    Yup, I'm one of those!"
+                  </p>
+                  </i>
 
-        <div class="container">
+                
 
-            <div class="description-text" style="font-size: 24px; ">
-                <p>
-                    2. Now, I have a real weapon
-                </p>
+                <img style="right: -350px;" src="assets/img/help.png" alt="About Us" width="400px">
+              </div>
+
             </div>
-
-
-                <img class="pixelgif" style="margin-top: -150px;" src="videos/sword1.gif"><br><br><br><br><br>
-
-        </div>
-
-        <div class="container">
-
-            <div class="description-text" style="font-size: 24px;">
-                <p>
-                    3. Wombo Combo!
-                </p>
+          </li>
+          <li class="l-section section">
+            <div class="contact">
+              <div class="contact--lockup">
+                <div class="modal">
+                  <div class="modal--information">
+                    <p>Piraeus, Greece</p>
+                    <a href="mailto:outragegames@hotmail.com">outragegames@hotmail.com</a>
+                  </div>
+                  <ul class="modal--options">
+                    <li><a href="https://www.upwork.com/freelancers/mariostinis" target="_blank" >UPWORK</a></li>
+                    <!-- <li><a href="#0">Youtube</a></li> -->
+                    <li><a href="mailto:outragegames@hotmail.com">CONTACT</a></li>
+                  </ul>
+                </div>
+              </div>
             </div>
-
-
-                <img class="pixelgif" src="videos/sword2.gif"><br><br><br><br><br>
-
-
-            
-        </div>
-
-        <br><br><br><br>
-
-        <div class="container">
-
-            <div class="description-text" style="font-size: 24px; margin-right: 100px;">
-                <p>
-                    Look at this small and cute bodybuilder:
-                </p>
-            </div>
-
-
-                <img class="pixelgif" style="margin-top: -80px;" src="videos/smallwalk.gif"><br><br><br><br><br>
-
-
-        </div>
-        <br><br><br>
-
-            <div class="description-text" style="font-size: 20px; font-style: italic;">
-
-                    "I am not cute! I am not small!"
-
-
-        <br>
-
-                <img class="pixelgif" style="margin-top: -110px;" src="videos/smallmanhit.gif"><br><br><br><br><br>
-            </div>
-
-            
-        </div>
-
-        
-        
-        <br><br><br><br><br>
-
-        <div class="container">
-            
-
-            <div class="body-text"style="font-size: 24px; font-style: italic;" >
-                "But, I waNt high-res pixel art"
-                <br><br><br><br>
-                <img class="pixelgif"  style="size: 1500px; margin-top: -60px; " src="videos/crybaby.gif"><br><br><br><br><br>
-                <br>
-            </div>
-
-            <div class="body-text"style="font-size: 24px; font-style: italic; margin-left: 400px;" >
-                *Low-res pixel art enjoyer*
-                <br><br><br><br>
-                <img class="pixelgif"  style="margin-top: -60px;" src="videos/chad.gif"><br><br><br><br><br>
-                <br>
-            </div>
-        </div> -->
-
-
-        <div class="rights-text" style="font-size: 15px; text-align: right;">
-            <p><i>@All rights reserved by Outrage Games | W0NK Creative Agency  .</i></p>
-        </div>
-
-        <br><br> 
-
+          </li>
+          
+        </ul>
+      </div>
     </div>
-    </body>
+  </div>
+  <ul class="outer-nav">
+    <li class="is-active">Home</li>
+    <li>Art</li>
+    <li>About</li>
+    <li>Contact</li>
+  </ul>
+</div>
 
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/2.2.4/jquery.min.js"></script>
+<script>window.jQuery || document.write('<script src="assets/js/vendor/jquery-2.2.4.min.js"><\/script>')</script>
+<script src="assets/js/functions-min.js"></script>
+<script src="assets/js/mine.js"></script>
+</body>
 </html>

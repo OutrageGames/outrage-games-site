@@ -1,6 +1,7 @@
 
 
 
+
 @font-face {
     font-family: 'Montserrat';
     src: url("fonts/Montserrat-Black.eot");
@@ -34,9 +35,6 @@ html {
     font-family: sans-serif;
     -ms-text-size-adjust: 100%;
     -webkit-text-size-adjust: 100%
-}
-body {
-    margin: 0
 }
 article, aside, details, figcaption, figure, footer, header, hgroup, main, menu, nav, section, summary {
     display: block
@@ -202,7 +200,28 @@ img::-moz-selection {
     background: transparent
 }
 body {
+    max-width: 100%;
+    margin: 0 auto;
+    overflow-x: hidden;
     -webkit-tap-highlight-color: #FFF498
+}
+@media (max-width: 1900px) {
+    /* Styles for devices with a maximum width of 600 pixels */
+    body {
+      max-width: 40%;
+    }
+  }
+@media (max-width: 1600px) {
+    /* Styles for devices with a maximum width of 600 pixels */
+    body {
+      max-width: 40%;
+    }
+  }
+@media (max-width: 1040px) {
+/* Styles for devices with a maximum width of 600 pixels */
+body {
+    max-width: 20%;
+}
 }
 body {
     background-color: #0c0c0c;
@@ -254,11 +273,11 @@ body {
     opacity: .35;
     z-index: 10
 }
-@media (max-width: 1180px) {
+/* @media (max-width: 1180px) {
     .l-side-nav {
         display: none
     }
-}
+} */
 .l-main-content {
     position: relative;
     width: 100%;
@@ -428,6 +447,11 @@ body {
     font-size: 16px;
     font-weight: 700;
     text-transform: uppercase
+}
+@media (max-width: 600px) {
+.header--nav-toggle {
+    display: none;
+}
 }
 .header--nav-toggle {
     display: -webkit-box;

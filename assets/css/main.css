@@ -744,7 +744,7 @@ body {
 }
 @media (max-width: 600px) {
     .intro--banner {
-        height: 360px
+        /* height: 360px */
     }
     .intro--banner h1 {
         font-size: 30px

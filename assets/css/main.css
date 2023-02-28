@@ -761,11 +761,14 @@ body {
         display: none
     } */
     /* .intro--banner h1 {
-        margin-top: 0
+        margin-top: 0;
     } */
-    /* .intro--options {
-        display: none
-    } */
+    .intro--options h3{
+        /* display: none */
+        font-size: 2px;
+        left: 10px;
+        right: 10px;
+    }
 }
 .work {
     position: relative;

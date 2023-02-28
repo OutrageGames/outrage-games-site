@@ -763,11 +763,15 @@ body {
     /* .intro--banner h1 {
         margin-top: 0;
     } */
-    .intro--options h3{
-        /* display: none */
-        font-size: 2px;
+    .intro--options{
         left: 10px;
         right: 10px;
+    }
+    .intro--options h3{
+        font-size: 15px;
+    }
+    .intro--options p{
+        font-size: 10px;
     }
 }
 .work {

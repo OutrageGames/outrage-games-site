@@ -1743,19 +1743,25 @@ body {
     display: block;
  }
  #bullets {
+    /* margin: 150px 0 0; */
+    /* left: 50%; */
+
+    text-align: center;
+
     position: fixed;
     left: 50%;
-    bottom: -280px;
+    bottom: 15px;
 
     transform: translateX(-50%);
     padding: 10px;
     text-align: center;
+    z-index: 500;
  }
  #bullets label {
     display: inline-block;
-    width: 45px;
-    height: 300px;
-    /* border-radius:100%; */
+    width: 30px;
+    height: 30px;
+    border-radius:100%;
     background: #ffffff88;
     margin: 0 10px;
 
@@ -1766,8 +1772,8 @@ body {
  #slide4:checked ~ #bullets label:nth-child(4),
  #slide5:checked ~ #bullets label:nth-child(5) {
     background: #e629a7;
-    width: 45px;
-    height: 320px;
+    width: 50px;
+    height: 50px;
  }
  @media screen and (max-width: 900px) {
     #slide1:checked ~ #controls label:nth-child(2),

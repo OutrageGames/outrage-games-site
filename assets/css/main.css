@@ -749,23 +749,23 @@ body {
     .intro--banner h1 {
         font-size: 30px
     }
-    .intro--banner img {
+    /* .intro--banner img {
         display: none
-    }
+    } */
 }
 @media (max-width: 600px) and (max-height: 750px) {
     .intro--banner {
         height: auto
     }
-    .intro--banner::before, .intro--banner::after {
+    /* .intro--banner::before, .intro--banner::after {
         display: none
-    }
-    .intro--banner h1 {
+    } */
+    /* .intro--banner h1 {
         margin-top: 0
-    }
-    .intro--options {
+    } */
+    /* .intro--options {
         display: none
-    }
+    } */
 }
 .work {
     position: relative;

@@ -731,7 +731,9 @@ body {
         width: 330px
     }
     .intro--options {
-        display: block
+        display: block;
+        margin-left: 10px;
+        margin-right: 10px;
     }
     .intro--options>a {
         display: block;
@@ -764,8 +766,8 @@ body {
         margin-top: 0;
     } */
     .intro--options{
-        left: 10px;
-        right: 10px;
+        margin-left: 10px;
+        margin-right: 10px;
     }
     .intro--options h3{
         font-size: 15px;

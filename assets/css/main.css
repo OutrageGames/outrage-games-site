@@ -1018,10 +1018,14 @@ body {
     height: 10px;
     /* background-color: #e629a7 */
 }
+.about--banner p {
+    margin-top: 0;
+    font-size: 22px
+}
 .about--banner h2 {
     position: relative;
-    margin-top: 35px;
-    font-size: 68px;
+    /* margin-top: 35px; */
+    font-size: 54px;
     font-weight: 900;
     line-height: 1;
     z-index: 1
@@ -1064,11 +1068,11 @@ body {
     -webkit-transition: left .2s ease-in-out;
     transition: left .2s ease-in-out
 }
-.about--banner img {
+/* .about--banner img {
     position: absolute;
     bottom: -90px;
     right: -12px
-}
+} */
 .about--options {
     display: -webkit-box;
     display: -webkit-flex;
@@ -1129,7 +1133,11 @@ body {
     }
     .about--banner h2 {
         margin-top: 10px;
-        font-size: 44px
+        font-size: 22px
+    }
+    .about--banner p {
+        margin-top: 0;
+        font-size: 18px
     }
     .about--banner h2::before {
         top: 28px;
@@ -1139,9 +1147,9 @@ body {
         top: 163px;
         left: 163px
     }
-    .about--banner img {
+    /* .about--banner img {
         width: 315px
-    }
+    } */
 }
 @media (max-width: 600px) {
     .about--banner {
@@ -1153,9 +1161,13 @@ body {
     .about--banner::after {
         left: 310px
     }
+    .about--banner p {
+        margin-top: 0;
+        font-size: 18px
+    }
     .about--banner h2 {
         margin-top: 0;
-        font-size: 55px
+        font-size: 22px
     }
     .about--banner h2::before {
         top: 43px;
@@ -1165,9 +1177,9 @@ body {
         top: 205px;
         left: 205px
     }
-    .about--banner img {
+    /* .about--banner img {
         display: none
-    }
+    } */
     .about--options {
         display: none
     }

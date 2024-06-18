@@ -21,17 +21,9 @@
 	width: 15%;
 	box-shadow: -5px 5px 0px rgba(0, 0, 0, 0.16);	
 	transition: ease-out;
+	-webkit-user-drag: none;
 }
 
-.gal-big-img{
-	/* margin: 60px;
-	width: 1000px;
-	box-shadow: 0px 0px 20px rgb(0, 0, 0);
-	transition: ease-out;	 */
-
-	width: 50%;
-	height: 50%;
-}
 
 #myImg {
 	/* border-radius: 5px; */
@@ -68,6 +60,7 @@
 }
 
 .modal-content {
+	-webkit-user-drag: none;
 	margin: auto;
 	display: block;
 	margin-left: auto;

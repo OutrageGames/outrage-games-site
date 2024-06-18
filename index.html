@@ -16,8 +16,8 @@
 
     <body>   
             
-            <div class="nav-menu">
-                <img class="nav-logo" src="images/Banner.png">
+            <div class="nav-menu"  oncontextmenu="false">
+                <img draggable="false" class="nav-logo" src="images/Banner.png">
                 <br>
                 <!-- <a  href="https://www.tiktok.com/@outrageart" target="_blank" >
                     <img  class="nav-social" src="images/tiktok.png"/>
@@ -27,8 +27,8 @@
                 <br>
                 
                 <a class="nav-btn" href="index.html">KIDLIT</a>
-                <a class="nav-btn" href="manga.html">MANGA</a>
-                <a class="nav-btn" href="contact.html">CONTACT</a>
+                <!-- <a class="nav-btn" href="manga.html">MANGA</a> -->
+                <!-- <a class="nav-btn" href="contact.html">CONTACT</a> -->
 
                 <!-- <a class="nav-social" href="mailto: outragegames@hotmail.com" target="_blank" >
                     <img style="width: 30px;" src="images/emaillogo.png"/>
@@ -83,8 +83,8 @@
                   <img class="gal-img" id="myImg" alt="I. am. a bad. drawing." src="https://www.dropbox.com/s/ekan703vgdpi6r6/robot.png?raw=1" >
                   <img class="gal-img" id="myImg" alt="Let it snow, let it snow..." src="https://www.dropbox.com/s/938ynxmxkmsloky/snowman.png?raw=1" >
                   <img class="gal-img" id="myImg" alt=":)" src="https://www.dropbox.com/s/704owqy7zhma3zb/skataki.png?raw=1" >
-                  <img class="gal-img gal-big-img" id="myImg" alt="BIG MOOONSTER!" width="1000" src="https://www.dropbox.com/s/qbt493rto8p62z8/hallow.png?raw=1" >
-                  <img class="gal-img gal-big-img" id="myImg" alt="BIGGER MOOONSTER!!!" width="1000" src="https://www.dropbox.com/s/v33i1l7nm27w1fu/teras.png?raw=1" >
+                  <img class="gal-img" id="myImg" alt="BIG MOOONSTER!" width="1000" src="https://www.dropbox.com/s/qbt493rto8p62z8/hallow.png?raw=1" >
+                  <img class="gal-img" id="myImg" alt="BIGGER MOOONSTER!!!" width="1000" src="https://www.dropbox.com/s/v33i1l7nm27w1fu/teras.png?raw=1" >
               </div>
               <div class="inner-grid">
                   <img class="gal-img" id="myImg" alt="Earth: I am the best planet <3" src="https://www.dropbox.com/s/pkerayu13yk0y17/earth.png?raw=1" >
@@ -93,7 +93,7 @@
               </div> 
               <div class="inner-grid">
                   <img class="gal-img" id="myImg" alt="I was a boss in a deleted project..." src="https://www.dropbox.com/s/gqypg1lj2nbloq2/tosfyri.png?raw=1" >
-                  <img class="gal-img gal-big-img" id="myImg" alt="I am the dead protagonist.. in the deleted game.." width="1000" src="https://www.dropbox.com/s/vbjf9j17ua5vld9/story1.png?raw=1" >
+                  <img class="gal-img" id="myImg" alt="I am the dead protagonist.. in the deleted game.." width="1000" src="https://www.dropbox.com/s/vbjf9j17ua5vld9/story1.png?raw=1" >
               </div>  
               <div class="inner-grid">
                   <img class="gal-img" id="myImg" alt="Poseidon's wrath" src="https://www.dropbox.com/s/x4k1oseeq37gpix/poseidon.png?raw=1" >
@@ -102,9 +102,9 @@
                   <img class="gal-img" id="myImg" alt="The best drawing among others." src="https://www.dropbox.com/s/336rnf02mt0k1de/among.png?raw=1" >
               </div>  
               <div class="inner-grid">
-                  <img class="gal-img gal-big-img" id="myImg" alt="Scooterverse logo" src="https://www.dropbox.com/s/biwkx0xafj41yoz/scooterlogo.png?raw=1" >
-                  <img class="gal-img gal-big-img" id="myImg" alt="wingwang" src="https://www.dropbox.com/s/21mg3e8h9jwk4vw/krin.png?raw=1" >
-                  <img class="gal-img gal-big-img" id="myImg" alt="Phone background" src="https://www.dropbox.com/s/i8fzo1g83166gxd/woah.png?raw=1" >
+                  <img class="gal-img" id="myImg" alt="Scooterverse logo" src="https://www.dropbox.com/s/biwkx0xafj41yoz/scooterlogo.png?raw=1" >
+                  <img class="gal-img" id="myImg" alt="wingwang" src="https://www.dropbox.com/s/21mg3e8h9jwk4vw/krin.png?raw=1" >
+                  <img class="gal-img" id="myImg" alt="Phone background" src="https://www.dropbox.com/s/i8fzo1g83166gxd/woah.png?raw=1" >
               </div>  
           </div>
   
@@ -118,6 +118,8 @@
   
   
           <script>
+              document.addEventListener('contextmenu', event => event.preventDefault());
+
               // create references to the modal...
               var modal = document.getElementById('myModal');
               // to all images -- note I'm using a class!

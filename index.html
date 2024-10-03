@@ -1,199 +1,131 @@
 <!DOCTYPE html>
-<html lang="en">
-<head>
-  <title>Outrage</title>
-  <meta charset="utf-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1">
-  <meta http-equiv="X-UA-Compatible" content="IE=edge">
-  <meta name="description" content="HTML5 website template">
-  <meta name="keywords" content="global, template, html, sass, jquery">
-  <link rel="stylesheet" href="assets/css/main.css">
-  <link rel="icon" type="image/x-icon" href="assets/img/smalllogo.png">
-</head>
-<body>
 
-<!-- notification for small viewports and landscape oriented smartphones -->
-<div class="device-notification">
-  <a class="device-notification--logo" href="#0">
-    <img src="assets/img/logo.png" alt="Outrage">
-    <p>Outrage</p>
-  </a>
-</div>
+<html>
 
-<div class="perspective effect-rotate-left">
-  <div class="container"><div class="outer-nav--return"></div>
-    <div id="viewport" class="l-viewport">
-      <div class="l-wrapper">
-        <header class="header">
-          <a class="header--logo"  href="#0">
-            <img src="assets/img/logo.png" alt="Outrage" style="max-width: 25%; top: 10px; left: 0; position: absolute;">
-            <p></p>
-          </a>
-          <button class="header--cta cta">DRAW FOR ME</button>
-          <div class="header--nav-toggle">
-            <span></span>
+    <head>
+
+        <title>Outrage Games</title>
+        <meta charset="utf-8">
+        <link rel="shortcut icon" href="images/site_icon.png"/>
+        <link rel="stylesheet" href="navstyle.css">
+        <link rel="stylesheet" href="generalstyle.css">
+        <link rel="stylesheet" href="images_style.css">
+        <!-- <link rel="preload" as="font" href="/fonts/kwfont.ttf" type="font/ttf" crossorigin="anonymous"> -->
+
+    </head>
+
+    <body>   
+            
+            <div class="nav-menu"  oncontextmenu="false">
+                <img draggable="false" class="nav-logo" src="images/Banner.png">
+                <br>
+                <!-- <a  href="https://www.tiktok.com/@outrageart" target="_blank" >
+                    <img  class="nav-social" src="images/tiktok.png"/>
+                </a>  -->
+                <br>
+                <br>
+                <br>
+                
+                <a class="nav-btn" href="index.html">ZOMBIOLOGY</a>
+                <a class="nav-btn" href="index.html">KW</a>
+                <a class="nav-btn" href="contact.html">ABOUT ME</a>
+                <!-- <a class="nav-btn" href="manga.html">MANGA</a> -->
+                <!-- <a class="nav-btn" href="contact.html">CONTACT</a> -->
+
+                <!-- <a class="nav-social" href="mailto: outragegames@hotmail.com" target="_blank" >
+                    <img style="width: 30px;" src="images/emaillogo.png"/>
+                </a> -->
+            </div>
+
+        
+
+        <div id="myModal" class="modal">
+            <span class="close">&times;</span>
+            <img class="modal-content" id="img01">
+            <div id="caption"></div>
           </div>
-        </header>
-        <nav class="l-side-nav">
-          <ul class="side-nav">
-            <li class="is-active"><span>Home</span></li>
-            <li><span>Art</span></li>
-            <li><span>About</span></li>
-            <li><span>Contact</span></li>
-          </ul>
-        </nav>
-        <ul class="l-main-content main-content">
-          <li class="l-section section section--is-active">
-            <div class="intro">
-              <div class="intro--banner" >
-                <h1 style="max-font-size: 80px; left: 20px;" >Welcome to Outrage!<br>You are cute!<br>perfect match<br>for my art.</h2></h1>
-
-                <img src="assets/img/cat.png" style="max-width: 25%; bottom: 50; right: 10px; position: absolute;">
-                <div class="intro--options"><a href="#0"><p><b>CLIENT FEEDBACK:</b></p></a></div>
-              </div>
-              <div class="intro--options">
-                
-                <a href="#0">
-                  <h3>Upwork client</h3>
-                  <p><i>"Highly skilled artist! Very easy to work with and understood all requirements. Very recommended!! Will hire again for similar jobs!"</i></p>
-                </a>
-                <a href="#0">
-                  <h3>CRUCIBLE AI</h3>
-                  <p><i>"Thank you for your amazing work! Your work has helped us learn so much about what we're building, and we're especially grateful for 
-                    how diligent you are and for how easy it has been to work with you."</i></p>
-                </a>
-                <a href="#0">
-                  <h3>Adam Kormos</h3>
-                  <p><i>"I really like them all! Thank you for your fast service!"</i></p>
-                </a>
-              </div>
-            </div>
-          </li>
-          <li class="l-section section">
-
-
-
-            <div class="work">
-              <h2 style="position: fixed; right: 50%; top: 150px;">Art</h2><br><br>
-              <div class="work--lockup">
-
-
-                <div class="slider">
-                  <div class="slider__item">
-                    <img src="assets/img/Creepy.png" alt="Image 1">
-                    <div class="slider__caption"><i></i></div>
-                  </div>
-                  <div class="slider__item">
-                    <img src="assets/img/Soldier.png" alt="Image 2">
-                    <div class="slider__caption"><i></i></div>
-                  </div>
-                  <div class="slider__item">
-                    <img src="assets/img/brain.png" alt="Image 3">
-                    <div class="slider__caption"><i></i></div>
-                  </div>
-                  <div class="slider__item">
-                    <img src="assets/img/glastra.png" alt="Image 4">
-                    <div class="slider__caption"><i></i></div>
-                  </div>
-                  <div class="slider__item">
-                    <img src="assets/img/what.png" alt="Image 5">
-                    <div class="slider__caption"><i></i></div>
-                  </div>
-                  <div class="slider__item">
-                    <img src="assets/img/Pota.png" alt="Image 6">
-                    <div class="slider__caption"><i></i></div>
-                  </div>
-                  <div class="slider__item">
-                    <img src="assets/img/Angry.png" alt="Image 7">
-                    <div class="slider__caption"><i></i></div>
-                  </div>
-                  <div class="slider__item">
-                    <img src="assets/img/Angry2.png" alt="Image 8">
-                    <div class="slider__caption"><i></i></div>
-                  </div>
-                  <div class="slider__item">
-                    <img src="assets/img/Angry3.png" alt="Image 9">
-                    <div class="slider__caption"><i></i></div>
-                  </div>
-                  <div class="slider__item">
-                    <img src="assets/img/Alien.png" alt="Image 10">
-                    <div class="slider__caption"><i></i></div>
-                  </div>
-                  <div class="slider__item">
-                    <img src="assets/img/what2.png" alt="Image 10">
-                    <div class="slider__caption"><i></i></div>
-                  </div>
                   
-
-
-                </div>
   
+          <div class="outer-grid">
+              <div class="inner-grid">
+                  <img class="gal-img" id="myImg" alt="knifasdasdes!" src="images/Jazz_Giraffe.png" >
+                  <img class="gal-img" id="myImg" alt="kniasdasdfes!" src="images/Benny.png" >
+                  <img class="gal-img" id="myImg" alt="asdasd!" src="images/Tim.png" >
+              </div>   
+          </div>
+  
+          <br>
+        <div class="body-text" style="font-size: 25px;">
+            *click to see the bigger picture*
+        </div>
 
-                
-                
-              </div>
+  
+          <!-- <div class="rights-text" style="font-size: 12px; text-align: center;">
+              <p><i>@All rights reserved by Outrage Games | W0NK Creative Agency</i></p>
+          </div> -->
+  
+          <br><br><br><br><br>
+  
+  
+          <script>
+              document.addEventListener('contextmenu', event => event.preventDefault());
 
-              
-
-            </div>
-
-
-
+              // create references to the modal...
+              var modal = document.getElementById('myModal');
+              // to all images -- note I'm using a class!
+              var images = document.getElementsByClassName('gal-img');
+              // the image in the modal
+              var modalImg = document.getElementById("img01");
+              // and the caption in the modal
+              var captionText = document.getElementById("caption");
+  
+              // Go through all of the images with our custom class
+              for (var i = 0; i < images.length; i++) 
+              {
+                  var img = images[i];
+                  // and attach our click listener for this image.
+                  img.onclick = function(evt) 
+                  {
+                      modal.style.display = "block";
+                      modalImg.src = this.src;
+                      captionText.innerHTML = this.alt;
+                      if(this.className == "gal-img")
+                      {
+                          modalImg.style.width = '2000px';
+                      }
+                  }
+              }
+  
+              var span = document.getElementsByClassName("close")[0];
+  
+              span.onclick = function() {
+                  modal.style.display = "none";
+              }
+  
+              document.addEventListener('keydown', function(event){
+                  if(event.key === "Escape"){
+                      modal.style.display = "none";
+                  }
+              });
+  
+          </script>
 
           
-          </li>
-          <li class="l-section section">
-            <div class="about">
-              <div class="about--banner">
-                  <i><h2>
-                    "I'm Marios, a 23-year-old illustrator fueled by passion and creativity!</h2><br>
-                  <p>I do have a Bachelor's degree in computer science, but my heart beats for art.<br>
-                    You know what else gets my blood pumping? Hitting the gym and chowing down on nutritious grub.<br><br></p>
-                    <p>
-                    Yup, I'm one of those!"
-                  </p>
-                  </i>
+  
+        <div class="rights-text" >
+            <p><i>@ All rights reserved by Marios Rafail Stinis</i></p>
+        </div>
+  
+          <br><br><br><br><br>
+        
 
-                
 
-                <img style="max-width: 50%; bottom: -250px; right: 0; position: absolute;" src="assets/img/help.png" alt="About Us" width="400px">
-              </div>
 
-            </div>
-          </li>
-          <li class="l-section section">
-            <div class="contact">
-              <div class="contact--lockup">
-                <div class="modal">
-                  <div class="modal--information">
-                    <p>Piraeus, Greece</p>
-                    <a href="mailto:outragegames@hotmail.com">outragegames@hotmail.com</a>
-                  </div>
-                  <ul class="modal--options">
-                    <li><a href="https://www.upwork.com/freelancers/mariostinis" target="_blank" >UPWORK</a></li>
-                    <!-- <li><a href="#0">Youtube</a></li> -->
-                    <li><a href="mailto:outragegames@hotmail.com">CONTACT</a></li>
-                  </ul>
-                </div>
-              </div>
-            </div>
-          </li>
-          
-        </ul>
-      </div>
-    </div>
-  </div>
-  <ul class="outer-nav">
-    <li class="is-active">Home</li>
-    <li>Art</li>
-    <li>About</li>
-    <li>Contact</li>
-  </ul>
-</div>
+        
+        <br><br>
 
-<script src="https://ajax.googleapis.com/ajax/libs/jquery/2.2.4/jquery.min.js"></script>
-<script>window.jQuery || document.write('<script src="assets/js/vendor/jquery-2.2.4.min.js"><\/script>')</script>
-<script src="assets/js/functions-min.js"></script>
-<script src="assets/js/mine.js"></script>
-</body>
+
+
+    </body>
+
 </html>

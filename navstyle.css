@@ -1,0 +1,53 @@
+.nav-logo{
+
+  /* display: block;
+  margin-left: auto;
+  margin-right: auto; */
+  width: 100%;
+  
+}
+
+
+.nav-menu{
+	text-align: center;
+	text-shadow: -2px 2px 0px rgba(0, 0, 0, 0.479);
+  margin-left: auto;
+  margin-right: auto;
+  width: 100%;
+  min-width: 800px;
+  max-width: 1100px;
+}
+
+
+
+.nav-btn {
+	position: relative;
+	padding-left: 20px;
+	padding-right: 20px;
+	color: blue;
+	font-size: 50px;
+	text-decoration: none; 
+}
+
+
+.nav-social {
+	margin-left: auto;
+	margin-right: auto;
+	width: 100px;
+}
+
+.nav-btn:hover {
+	color: black;
+	text-decoration: none; 
+}
+
+.nav-btn:active {
+	color: white;
+	text-decoration: none; 
+}
+
+.nav-btn:after {
+	color: white;
+	text-decoration: none;
+}
+

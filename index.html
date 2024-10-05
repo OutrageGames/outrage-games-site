@@ -7,123 +7,126 @@
         <title>Outrage Games</title>
         <meta charset="utf-8">
         <link rel="shortcut icon" href="images/site_icon.png"/>
-        <link rel="stylesheet" href="navstyle.css">
-        <link rel="stylesheet" href="generalstyle.css">
-        <link rel="stylesheet" href="images_style.css">
-        <!-- <link rel="preload" as="font" href="/fonts/kwfont.ttf" type="font/ttf" crossorigin="anonymous"> -->
+        <link rel="stylesheet" href="commonstyle.css">
+        <link rel="stylesheet" href="indexstyle.css">
+
 
     </head>
 
     <body>   
-            
+	
             <div class="nav-menu"  oncontextmenu="false">
-                <img draggable="false" class="nav-logo" src="images/Banner.png">
-                <br>
-                <!-- <a  href="https://www.tiktok.com/@outrageart" target="_blank" >
-                    <img  class="nav-social" src="images/tiktok.png"/>
-                </a>  -->
-                <br>
-                <br>
-                <br>
-                
+                <img draggable="false" class="nav-logo" src="images/Banner.png">  
+				<br><br><br><br>				
                 <a class="nav-btn" href="index.html">ZOMBIOLOGY</a>
                 <a class="nav-btn" href="kw.html">KW</a>
-                <a class="nav-btn" href="contact.html">ABOUT ME</a>
-                <!-- <a class="nav-btn" href="manga.html">MANGA</a> -->
-                <!-- <a class="nav-btn" href="contact.html">CONTACT</a> -->
+                <a class="nav-btn" href="about.html">ABOUT ME</a>
 
-                <!-- <a class="nav-social" href="mailto: outragegames@hotmail.com" target="_blank" >
-                    <img style="width: 30px;" src="images/emaillogo.png"/>
-                </a> -->
+            </div>
+			
+			<br><br><br>
+
+        
+<div class="body-text" style="font-size: 70px;">
+Zombiology! Woo, sounds terrifying, right?
+
+        </div>
+        <div class="body-text" style="font-size: 32px; ">
+Well, I'm currently working as an artist and game designer at Double Z Games <br> so if you hear a zombie groaning, it's probably just me after a long day!
+
+
+        </div>
+
+        <br><br><br><br><br>
+
+        <div class="container">
+
+
+			
+			<video loop autoplay muted class="youtube-vid" id = "video1" >
+                <source type="video/mp4" src="https://www.dropbox.com/scl/fi/eb79ra5rahgbws5vgu0lw/zom3.mp4?rlkey=s5hmd35bgr7plnj18t0rnzri8&st=32jg3jbo&raw=1">
+            </video>
+
+            
+
+            <div class="description-text" style="font-size: 24px; margin-left: 100px; 	text-align: left;">
+                <p>
+Zombiology is a puzzle game with simple drag 'n' drop mechanics!<br>But don't you dare call it easy-things can go from<br>'I got this' to 'What sorcery is this?!' in no time!
+
+
+                </p>
+            </div>
+			
+        </div>
+
+        <br><br><br><br><br>
+
+        <div class="container">
+
+                       <div class="description-text" style="font-size: 24px; margin-right: 100px; 	text-align: right;">
+                <p>
+Explore new worlds, levels, mechanics...<br>and exciting new ways to drive yourself crazy!
+
+                </p>
             </div>
 
-        
 
-        <div id="myModal" class="modal">
-            <span class="close">&times;</span>
-            <img class="modal-content" id="img01">
-            <div id="caption"></div>
-          </div>
-                  
-  
-          <div class="outer-grid">
-              <div class="inner-grid">
-                  <img class="gal-img" id="myImg" alt="knifasdasdes!" src="images/Jazz_Giraffe.png" >
-                  <img class="gal-img" id="myImg" alt="kniasdasdfes!" src="images/Benny.png" >
-                  <img class="gal-img" id="myImg" alt="asdasd!" src="images/Tim.png" >
-              </div>   
-          </div>
-  
-          <br>
-        <div class="body-text" style="font-size: 25px;">
-            *click to see the bigger picture*
+
+            <video loop autoplay muted class="youtube-vid" id = "video2" >
+                <source type="video/mp4" src="https://www.dropbox.com/scl/fi/7iw0xryep4p4rk0yzrzkn/zom2.mp4?rlkey=rdzp4geask3a1erasrsko03dq&st=3evaf3h8&raw=1">
+            </video>
+            
         </div>
 
-  
-          <!-- <div class="rights-text" style="font-size: 12px; text-align: center;">
-              <p><i>@All rights reserved by Outrage Games | W0NK Creative Agency</i></p>
-          </div> -->
-  
-          <br><br><br><br><br>
-  
-  
-          <script>
-              document.addEventListener('contextmenu', event => event.preventDefault());
+        <br><br><br><br><br>
 
-              // create references to the modal...
-              var modal = document.getElementById('myModal');
-              // to all images -- note I'm using a class!
-              var images = document.getElementsByClassName('gal-img');
-              // the image in the modal
-              var modalImg = document.getElementById("img01");
-              // and the caption in the modal
-              var captionText = document.getElementById("caption");
-  
-              // Go through all of the images with our custom class
-              for (var i = 0; i < images.length; i++) 
-              {
-                  var img = images[i];
-                  // and attach our click listener for this image.
-                  img.onclick = function(evt) 
-                  {
-                      modal.style.display = "block";
-                      modalImg.src = this.src;
-                      captionText.innerHTML = this.alt;
-                      if(this.className == "gal-img")
-                      {
-                          modalImg.style.width = '2000px';
-                      }
-                  }
-              }
-  
-              var span = document.getElementsByClassName("close")[0];
-  
-              span.onclick = function() {
-                  modal.style.display = "none";
-              }
-  
-              document.addEventListener('keydown', function(event){
-                  if(event.key === "Escape"){
-                      modal.style.display = "none";
-                  }
-              });
-  
-          </script>
+        <div class="container">
 
-          
-  
-        <div class="rights-text" >
+            <video loop autoplay muted class="youtube-vid" id = "video3" >
+                <source type="video/mp4" src="https://www.dropbox.com/scl/fi/vfczj240isjwgjst0gfpl/zom4.mp4?rlkey=yp76rkmtih72qexpa0035eo4v&st=la13k51v&raw=1">
+            </video>
+
+
+            <div class="description-text" style="font-size: 24px; margin-left: 100px; 	text-align: left;">
+                <p>
+				You can mess things up pretty easily too!
+
+                </p>
+            </div>
+			
+        </div>
+
+        <br><br><br><br><br>
+
+
+        <div class="container">
+
+            <div class="description-text" style="font-size: 24px; margin-right: 100px; 	text-align: right;">
+                <p>
+Save crazy characters and do all sorts of wild things.<br> Don’t expect anything normal!
+
+                </p>
+            </div>
+
+            <video loop autoplay muted class="youtube-vid" id = "video4" >
+                <source type="video/mp4" src="https://www.dropbox.com/scl/fi/60la735v0n4e5sdbwoiap/zom1.mp4?rlkey=qg2vcya7y87hjwztoikiwc7z1&st=7sy03bdg&raw=1">
+            </video>
+
+            
+        </div>
+
+        
+        
+
+        
+
+         <br><br><br><br><br><br><br><br><br><br>
+
+        <div class="rights-text" style="font-size: 12px; text-align: center;">
             <p><i>@ All rights reserved by Marios Rafail Stinis</i></p>
         </div>
-  
-          <br><br><br><br><br>
-        
 
-
-
-        
-        <br><br>
-
+        <br><br> 
 
 
     </body>

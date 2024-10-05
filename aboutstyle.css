@@ -3,7 +3,7 @@ body{
 	font-weight: normal;
 	font-style: normal;
 	letter-spacing: 3px;
-	background-image: url('./images/kwbg.png');
+	background-image: url('./images/aboutbg.png');
 	background-repeat: repeat-x; 
 	background-color: #6190f1;
 	margin: 0px;
@@ -14,12 +14,6 @@ body{
 	display: flex;
 	justify-content: center;
 	align-items: center;
-}
-
-.youtube-vid{
-	box-shadow: 0px 0px 60px rgb(0, 0, 0);	
-	width: 640;
-	height: 360px;
 }
 
 .description-text{
@@ -39,10 +33,3 @@ body{
 	justify-content: center;
 	align-items: center;
 }
-
-.embededyt
-{
-	overflow:hidden;
-	pointer-events:none;
-}
-
